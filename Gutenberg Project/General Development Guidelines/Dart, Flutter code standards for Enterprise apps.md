@@ -1,6 +1,8 @@
 Following article aims to cover certain development guidelines, *partly* within our agreed upon methodologies of code architecture, state management & flow choices, modularization and responsibility segregation for an enterprise application like Gutenberg. Its highly opinionated but, intended for good reasons.
 
-TODO
+### TODO
+
+
 ### Index
 - Dart standards (language & grammar)
 	- analyzer (effective dart)
