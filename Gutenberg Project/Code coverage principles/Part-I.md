@@ -28,7 +28,7 @@ It goes like this:
 The foundation of computation stands on **unambiguity**. An ambiguous code is like a gossip. It can be right, it can be wrong, it can make sense or be non-sensical in different lights. While we may be able to deduce a gossip at times, a computer won't. It needs **definitive** instructions.
 
 ![Please increase water](https://github.com/P01SHUBHAMP/discovery_onboarding_roadmap/blob/main/Gutenberg%20Project/images/image_0.png)
-
+<img src="../images/image_0.png" width="128"/>
 When you are sitting on a table and someone says, *`Kripya panni badhaiye`*. You pass the water container towards the person. If you translate this statement into english word-by-word, it becomes non-sensical, i.e; *`Please increase water`*. While you would effortlessly understand the statement, a computer sitting behind layers of translators simply would not.
 
 What my point is, in a project of thousands of lines of code, we need a degree of unambiguity and definitive-ness to show proof of our(developers') translation capability, from business requirement to software. And what better way to prove it than by showcasing that every **unit** of this product is put through test by the creators themselves.
