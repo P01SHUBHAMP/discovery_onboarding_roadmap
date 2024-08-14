@@ -1,0 +1,46 @@
+### Index
+- [What is code coverage?](Part-I.md#What-is-code-coverage?)
+- [What is a test case?](Part-I.md#What-is-a-test-case?)
+- [Why do we need to write it?](Part-I.md#why-do-we-need-to-write-it)
+	- [Motivation](Part-I.md#abstract-motivation)
+	- [Compliance and Governance](Part-I.md#compliance-and-governance)
+- [Thought process/ Scope of coverage](Part-I.md#thought-process--scope-of-coverage)
+- [Fundamentals of writing a test case](Part-I.md#fundamentals-of-writing-a-test-case)
+	- [structure](Part-I.md#structure)
+    - [Before writing a test case](Part-I.md#before-writing-a-test-case)
+	- setup: create right environment for the code being tested
+	- describe the test case (when X then Y format)
+	- arrange
+	- act
+	- assert
+		- expect
+		- verify
+	- teardown
+- Mocking
+	- What, why and how
+	- Options: Vanila, Mockito, Mocktail
+- Stubbing
+	- What, why and how
+	- sync and async stubbing, error stubbing
+- Types of test cases
+	- Unit
+	- Component/widget
+	- BLoC
+		- when event E is added, expect whether state S is emitted 
+	- Integration
+- Unit Testing
+	- Primitive code units or ones without external dependencies
+		- Data models
+		- bloc Events and States
+		- util/helper classes or functions, extension methods, enums, open mixins
+	- Logical classes with/out external dependency
+		- Service or Repository classes
+- Component/Widget Testing
+	- template component
+	- state dependent components
+	- interact-able components
+		- tap, type
+	- dialog box, snackBar
+	- navigation
+- BLoC Testing
+- More examples
